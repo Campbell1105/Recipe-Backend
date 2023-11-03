@@ -251,10 +251,21 @@ const mongoose = require('mongoose');
 "category": "dinner"
 },
 
+{
+  "id": new mongoose.Types.ObjectId(),
+  "image": "/images/ Fried Mush Cakes.png",
+  "name": " Fried Mush Cakes",
+"Ingredients": [
+"3 cups water",
+"1 cup yellow cornmeal",
+"1 cup milk",
+"1/2 teaspoon salt to taste",
+"3-4 tablespoons butter (for frying)",
+],
 
-  
-  
-]
+"Instructions": "1. In a large saucepan, bring the water to a boil. \n2 In a small bowl, mix together the cornmeal, milk and salt. \n3 Slowly pour the cornmeal/milk mixture into the boiling water, stirring constantly. \n4 Bring it to a boil again, then reduce heat and stir almost constantly (to avoid clumps) for about 15 minutes or until the mixture is thickened to the consistency you like. \n5 Pour this mixture into a lightly greased 9×5 loaf pan and allow it to cool to room temperature. \n6 Once the cornmeal has cooled, cover it with plastic wrap and place the pan in the refrigerator overnight or until the mixture has become firm (at least 8 hours).  \n7 Remove the cornmeal loaf from the pan and slice it into 1/2″ to 1″ slices. (We usually slice the loaf into 10 slices, then cut those slices in half so they cook more quickly and make smaller pieces.) \n8 Heat the butter in a skillet over medium heat. \n9 Once the pan is hot, add the slices and fry for 3-4 minutes on each side until they are golden brown and heated through. Watch them closely so they don’t burn. \n10Serve immediately with maple syrup or honey if desired.",
+"category": "breakfast",
+},
 
 
 
