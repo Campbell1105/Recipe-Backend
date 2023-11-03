@@ -308,4 +308,23 @@ const mongoose = require('mongoose');
 "category": "dinner", 
 },
 
+{
+  "id": new mongoose.Types.ObjectId(),
+  "image": "/images/ steamed sweet rice cakes.png",
+  "name": " steamed sweet rice cakes",
+"ingredients" : [
+  
+"1 cup sugar",
+"2 cups water",
+"2 cups rice flour",
+"1 tsp yeast",
+"1 tbsp warm water",
+"1/8 tsp oil",
+"oil to grease pan",
+"water for steamer",
+],
+"instructions": "1. Dissolve the sugar in the water by heating it in a small pot. Set aside to cool down to room temperature. \n2 Mix the yeast with warm water. Set it aside to bloom (usually in a few minutes). \n3 Add the rice flour and sugar water to a large bowl. Mix until well combined. Add in the yeast mixture and lightly stir to combine. Cover and let it proof for 2-3 hours in a warm environment. *Add a few drops of oil 30 minutes into the proofing step. \n4 Once a thick layer of small bubbles are on the surface of the rice mixture, lightly grease a 9 inch pie pan. Then add the rice mixture to the pan. \n5 Boil the water for the steamer first. Add the pan to the steamer. *Cover with the lid and let it steam for 10-15 minutes. \n6Remove the pan from the steamer and let it completely cool down. Remove the cake from the pan and slice into diamonds, wedges, or cubes.",
+"category": "dessert", 
+},
+
 module.exports = seedRecipes;
