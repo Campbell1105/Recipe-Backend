@@ -247,8 +247,7 @@ const mongoose = require('mongoose');
     "parsley, for decoration",
     "water",
 ],
-"instructions" : 
-"1. Using a large sharp knife, cut the chicken into pieces, cut off the legs, breast, and back, also the wings. Put everything in a large pan. \n2 Wash the carrot, then cut it into larger pieces. Also peel the onion and cut it into quarters. Then add the chopped carrots, chopped onions, bay leaves, peppercorns, and salt to the pan. \n3 Pour enough water into the pan so that it barely covers the chicken. Then add the lid and bring everything to a boil. Once boiling, remove the foam from the surface of the water and turn down the heat to low. Simmer the aspic for 3 hours on very low heat. The broth in the pan should not boil actively, otherwise it will turn out to be very cloudy. \n4 After 3 hours, remove the chicken parts from the pan and strain the broth to capture the boiled vegetables, bay leaves and peppercorns. You can discard the onion, peppercorns and bay leaves, but save the carrot. \n5 Pour the broth back into the pot and add the minced garlic. Bring the broth to a boil on the stove. Once boiling, turn off the heat and let the broth cool. Then strain again to remove the garlic from the broth. This flavors the broth, but does not make the aspic too bitter. \n6 Separate the chicken meat from the bones. Also cut a few pieces of carrot into thinner slices to use for decoration. \n7 Place pieces of meat in small or large bowls, then add slices of carrots and a sprig of parsley on top. \n8 Pour the broth into the bowls. Since it was cooked from meat with a lot of bones, it will be able to freeze (thickened) without additional gelatin. If you have any doubts about whether the aspic will harden, it is better to prepare the gelatin in advance and add it to the broth. Kholodets should be left on the table until it cools completely, then put in the refrigerator for further solidification. \n9 Most often, aspic is served with mustard, horseradish sauce, or adjika.",
+"instructions" : "1. Using a large sharp knife, cut the chicken into pieces, cut off the legs, breast, and back, also the wings. Put everything in a large pan. \n2 Wash the carrot, then cut it into larger pieces. Also peel the onion and cut it into quarters. Then add the chopped carrots, chopped onions, bay leaves, peppercorns, and salt to the pan. \n3 Pour enough water into the pan so that it barely covers the chicken. Then add the lid and bring everything to a boil. Once boiling, remove the foam from the surface of the water and turn down the heat to low. Simmer the aspic for 3 hours on very low heat. The broth in the pan should not boil actively, otherwise it will turn out to be very cloudy. \n4 After 3 hours, remove the chicken parts from the pan and strain the broth to capture the boiled vegetables, bay leaves and peppercorns. You can discard the onion, peppercorns and bay leaves, but save the carrot. \n5 Pour the broth back into the pot and add the minced garlic. Bring the broth to a boil on the stove. Once boiling, turn off the heat and let the broth cool. Then strain again to remove the garlic from the broth. This flavors the broth, but does not make the aspic too bitter. \n6 Separate the chicken meat from the bones. Also cut a few pieces of carrot into thinner slices to use for decoration. \n7 Place pieces of meat in small or large bowls, then add slices of carrots and a sprig of parsley on top. \n8 Pour the broth into the bowls. Since it was cooked from meat with a lot of bones, it will be able to freeze (thickened) without additional gelatin. If you have any doubts about whether the aspic will harden, it is better to prepare the gelatin in advance and add it to the broth. Kholodets should be left on the table until it cools completely, then put in the refrigerator for further solidification. \n9 Most often, aspic is served with mustard, horseradish sauce, or adjika.",
 "category": "dinner"
 },
 
@@ -264,12 +263,27 @@ const mongoose = require('mongoose');
 "3-4 tablespoons butter (for frying)",
 ],
 
-"Instructions": "1. In a large saucepan, bring the water to a boil. \n2 In a small bowl, mix together the cornmeal, milk and salt. \n3 Slowly pour the cornmeal/milk mixture into the boiling water, stirring constantly. \n4 Bring it to a boil again, then reduce heat and stir almost constantly (to avoid clumps) for about 15 minutes or until the mixture is thickened to the consistency you like. \n5 Pour this mixture into a lightly greased 9×5 loaf pan and allow it to cool to room temperature. \n6 Once the cornmeal has cooled, cover it with plastic wrap and place the pan in the refrigerator overnight or until the mixture has become firm (at least 8 hours).  \n7 Remove the cornmeal loaf from the pan and slice it into 1/2″ to 1″ slices. (We usually slice the loaf into 10 slices, then cut those slices in half so they cook more quickly and make smaller pieces.) \n8 Heat the butter in a skillet over medium heat. \n9 Once the pan is hot, add the slices and fry for 3-4 minutes on each side until they are golden brown and heated through. Watch them closely so they don’t burn. \n10Serve immediately with maple syrup or honey if desired.",
+"Instructions" : "1. In a large saucepan, bring the water to a boil. \n2 In a small bowl, mix together the cornmeal, milk and salt. \n3 Slowly pour the cornmeal/milk mixture into the boiling water, stirring constantly. \n4 Bring it to a boil again, then reduce heat and stir almost constantly (to avoid clumps) for about 15 minutes or until the mixture is thickened to the consistency you like. \n5 Pour this mixture into a lightly greased 9 by 5 loaf pan and allow it to cool to room temperature. \n6 Once the cornmeal has cooled, cover it with plastic wrap and place the pan in the refrigerator overnight or until the mixture has become firm (at least 8 hours).  \n7 Remove the cornmeal loaf from the pan and slice it into 1/2″ to 1″ slices. (We usually slice the loaf into 10 slices, then cut those slices in half so they cook more quickly and make smaller pieces.) \n8 Heat the butter in a skillet over medium heat. \n9 Once the pan is hot, add the slices and fry for 3-4 minutes on each side until they are golden brown and heated through. Watch them closely so they don’t burn. \n10Serve immediately with maple syrup or honey if desired.",
 "category": "breakfast",
 },
 
+{
+  "id": new mongoose.Types.ObjectId(),
+  "image": "/images/ gruel.png",
+  "name": " gruel",
+"ingredients" : [
+"1 cup oatmeal or oat groats",
+"1 cup flaxseed meal",
+"1 cup chopped or ground walnuts, or whatever you have",
+"1 cup oat bran",
+"4 cups milk",
+"1/2 teaspoon cinnamon (optional)",
+],
+"instructions": "1. Cook oatmeal (or groats) in 4 cups of boiling water for 5 minutes. You won't see much change in oatmeal consistency at this time. \n2 Simmer mixture on low heat for 45 minutes. You'll notice the oatmeal has soaked up water and formed a thick, cooked porridge-like consistency. \n3 Allow mixture to cool to room temperature. \n4 Mix oatmeal/groat mixture with flaxseed meal, walnuts, and oat bran. Consistency will be very thick, almost like paste, at this time. \n5 Add milk in slowly using 1/4-cup increments. \n6 Adjust the amount of milk you add to reach desired consistency. For a thicker gruel, use 1/4 to 1/2 cup less (3 1/2 to 3 3/4 cups of milk total); for a runnier gruel, add 1/4 to 1/2 cups of additional milk (4 1/4 to 4 1/2 cups total). \n7 If you added too much milk, strain runny gruel if you want to eliminate excess liquid to thicken it up. \n8 The gruel can be served hot or cold. Heat gruel on your stove top over low heat (while stirring) for 3 to 4 minutes to serve it hot. Chill gruel in the refrigerator for at least an hour if you want to serve it cold. \n9 Top with cinnamon, if desired, before serving.",
 
 
- ]
+ 
+
+},
 
 module.exports = seedRecipes;
