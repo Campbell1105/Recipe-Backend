@@ -229,7 +229,28 @@ const mongoose = require('mongoose');
     "melted chocolate chips & chopped walnuts for garnish, optional",
  ],
   "category": "dessert"
-  }
+  },
+
+  {
+    "id": new mongoose.Types.ObjectId(),
+    "image": "/images/Chicken in Aspic.png",
+    "name": "Chicken in Aspic",
+"ingredients": [
+"1 whole chicken, 2-3 pounds",
+"1 yellow onion",
+"1 carrot",
+"3-4 bay leaves",
+"3-4 whole black peppercorns",
+"1 teaspoon salt",
+"3 garlic cloves, minced",
+"parsley, for decoration",
+"water",
+],
+"instructions" : 
+"1. Using a large sharp knife, cut the chicken into pieces – cut off the legs, breast, and back, also the wings. Put everything in a large pan. \n2 Wash the carrot, then cut it into larger pieces. Also peel the onion and cut it into quarters. Then add the chopped carrots, chopped onions, bay leaves, peppercorns, and salt to the pan. \n3 Pour enough water into the pan so that it barely covers the chicken. Then add the lid and bring everything to a boil. Once boiling, remove the foam from the surface of the water and turn down the heat to low. Simmer the aspic for 3 hours on very low heat. The broth in the pan should not boil actively, otherwise it will turn out to be very cloudy. \n4 After 3 hours, remove the chicken parts from the pan and strain the broth to capture the boiled vegetables, bay leaves and peppercorns. You can discard the onion, peppercorns and bay leaves, but save the carrot. \n5 Pour the broth back into the pot and add the minced garlic. Bring the broth to a boil on the stove. Once boiling, turn off the heat and let the broth cool. Then strain again to remove the garlic from the broth. This flavors the broth, but does not make the aspic too bitter. \n6 Separate the chicken meat from the bones. Also cut a few pieces of carrot into thinner slices to use for decoration. \n7 Place pieces of meat in small or large bowls, then add slices of carrots and a sprig of parsley on top. \n8 Pour the broth into the bowls. Since it was cooked from meat with a lot of bones, it will be able to freeze (thickened) without additional gelatin. If you have any doubts about whether the aspic will harden, it is better to prepare the gelatin in advance and add it to the broth. Kholodets should be left on the table until it cools completely, then put in the refrigerator for further solidification. \n9 Most often, aspic is served with mustard, horseradish sauce, or adjika.",
+"category": "dinner"
+},
+
 
   
   
