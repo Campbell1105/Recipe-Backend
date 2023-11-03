@@ -280,10 +280,32 @@ const mongoose = require('mongoose');
 "1/2 teaspoon cinnamon (optional)",
 ],
 "instructions": "1. Cook oatmeal (or groats) in 4 cups of boiling water for 5 minutes. You won't see much change in oatmeal consistency at this time. \n2 Simmer mixture on low heat for 45 minutes. You'll notice the oatmeal has soaked up water and formed a thick, cooked porridge-like consistency. \n3 Allow mixture to cool to room temperature. \n4 Mix oatmeal/groat mixture with flaxseed meal, walnuts, and oat bran. Consistency will be very thick, almost like paste, at this time. \n5 Add milk in slowly using 1/4-cup increments. \n6 Adjust the amount of milk you add to reach desired consistency. For a thicker gruel, use 1/4 to 1/2 cup less (3 1/2 to 3 3/4 cups of milk total); for a runnier gruel, add 1/4 to 1/2 cups of additional milk (4 1/4 to 4 1/2 cups total). \n7 If you added too much milk, strain runny gruel if you want to eliminate excess liquid to thicken it up. \n8 The gruel can be served hot or cold. Heat gruel on your stove top over low heat (while stirring) for 3 to 4 minutes to serve it hot. Chill gruel in the refrigerator for at least an hour if you want to serve it cold. \n9 Top with cinnamon, if desired, before serving.",
+"category": "breakfast",
+},
 
-
- 
-
+{
+  "id": new mongoose.Types.ObjectId(),
+  "image": "/images/ possum stew.png",
+  "name": " possum stew",
+"ingredients" : [
+  "1 big possum",
+  "½ cup olive oil",
+  "2 garlic cloves, minced",
+  "2 medium yellow onions, sliced",
+  "4 carrots, cut in thick slices",
+  "2 cups fresh or frozen corn",
+  "3 strips of thick-cut bacon diced",
+  "½ cup tomato juice",
+  "1 28 oz. can diced tomatoes",
+  "1 tablespoon cornstarch",
+  "2 Habanero peppers diced (wear gloves)",
+  "¼ cup white vinegar",
+  "10-12 drops Tabasco",
+  "salt and pepper to taste",
+  "6 medium potatoes, peeled and sliced",
+],
+"instructions": "1. Rub possum with salt and pepper. \n2 Brown possum in olive oil in a large skillet. \n3 Transfer possum to large stock pot. \n4 Fill pot 2/3 full with water. \n5 Add vinegar, onions, carrots, corn, and habanero peppers. \n6 Bring to boil and add bacon. \n7 Cover tightly, reduce heat and simmer for 1 hour. \n8 Bring to boil and add potatoes, garlic, tabasco, tomatoes and juice. \n9 Cover tightly, reduce heat and simmer for another hour. \n10 Make a no lump paste of cornstarch and warm water. \n11 Add enough paste to stew until thickened to wanted consistency. \n12 Add salt and pepper to taste and simmer 15 more minutes",
+"category": "dinner", 
 },
 
 module.exports = seedRecipes;
