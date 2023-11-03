@@ -212,7 +212,25 @@ const mongoose = require('mongoose');
     "category": "lunch"
   }
   
-  
+  {
+    "id": new mongoose.Types.ObjectId(),
+    "image": "/images/Baklava.png",
+    "name": "Baklava",
+  "instructions": "1. Buy Phyllo dough from your local baker. \n2Trim phyllo dough to fit your baking dish. \n3 Butter the bottom and sides of a 13x9 non-stick baking pan. \n4 Start with your honey sauce (which needs time to cool as baklava bakes). \n5 In a medium saucepan, combine 1 cup sugar, 1/2 cup honey, 2 Tbsp lemon juice, and 3/4 cup water. Bring to a boil over med/high heat, stirring until sugar is dissolved, then reduce heat to med/low and boil additional 4 min without stirring. Remove from heat and let syrup cool while preparing baklava. \n6 Preheat Oven to 325˚F. \n7 Cut/chop/grind walnuts to a coarsely ground/ finely chopped consistancy. In a medium bowl, stir together: 4 cups finely chopped walnuts and 1 tsp cinnamon. \n8 Place 10 phyllo sheets into baking pan one at a time, brushing each sheet with butter once it's in the pan before adding the next (i.e. place phyllo sheet into pan, brush the top with butter, place next phyllo sheet in pan, butter the top, etc. etc.). Keep remaining phyllo covered with a damp towel at all times. Spread about 1/5 of nut mixture (about 3/4 cup) over phyllo dough. /n9 Add 5 buttered sheets of phyllo, then another layer of nuts. Repeat x 4. Finish off with 10 layers of buttered phyllo sheets. Brush the very top with butter. \n10 Cut pastry into 1 1/2 inch wide strips, then cut diagonally to form diamond shapes. Bake at 325˚F for 1 hour and 15 min or until tops are golden brown. \n11 Remove from oven and immediately spoon cooled syrup evenly over the hot baklava (you'll hear it sizzle). This will ensure that it stays crisp rather than soggy. Let baklava cool completely, uncovered and at room temp. For best results, let baklava sit 4-6 hours or overnight at room temperature for the syrup to penetrate and soften the layers. Garnish baklava with finely chopped nuts or drizzle with melted chocolate. Store at room temp, covered with a tea towel for 1 to 2 weeks.",
+  "ingredients": [
+    "16 oz phyllo dough", 
+    "1 1/4 cups unsalted butter, 10 oz or 2 1/2 sticks, melted",
+    "1 lb walnuts, finely chopped, (about 4 cups)",
+    "1 tsp ground cinnamon",
+    "1 cup granulated sugar",
+    "2 Tbsp lemon juice, juice of 1/2 lemon",
+    "3/4 cup water",
+    "1/2 cup honey",
+    "melted chocolate chips & chopped walnuts for garnish, optional",
+ ],
+  "category": "dessert"
+  }
+
   
   
 ]
