@@ -210,7 +210,7 @@ const mongoose = require('mongoose');
       "50g (3 Tbsp + 1 Tsp) Butter"
     ],
     "category": "lunch"
-  }
+  },
   
   {
     "id": new mongoose.Types.ObjectId(),
